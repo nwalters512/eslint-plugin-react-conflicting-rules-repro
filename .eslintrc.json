@@ -1,0 +1,12 @@
+{
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": { "ecmaVersion": 6, "sourceType": "module" },
+  "rules": {
+    "react/jsx-curly-brace-presence": [
+      "error",
+      { "props": "never", "children": "never" }
+    ],
+    "react/jsx-no-comment-textnodes": "error"
+  }
+}
+  
